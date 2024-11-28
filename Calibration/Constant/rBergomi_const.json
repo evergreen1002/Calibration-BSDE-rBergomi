@@ -1,0 +1,26 @@
+{
+    "eqn_config":{
+    "eqn_name": "rBergomi",
+    "T": 1,
+    "n": 20,  
+    "L": 9,
+    "N": 5,
+    "seed": 8,   
+    "S0": 3970.15, 
+    "V0": 0.15, 
+    "K": [3200, 3300, 3400, 3500, 3600, 3700, 3800, 3900, 4000]
+    },
+    "net_config":{ 
+    "init_xi": 0.05, 
+    "init_H": 0.04, 
+    "init_rho": -0.6,
+    "init_eta": 2.5,
+    "num_hiddens": [32, 32],
+    "lr_values": [1e-4, 1e-4],
+    "lr_boundaries": [100],
+    "num_iterations": 100,
+    "valid_size": 10000,
+    "patience": 100,     
+    "datype": "float64"  
+    }
+    }
